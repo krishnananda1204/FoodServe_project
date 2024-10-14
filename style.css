@@ -1,8 +1,12 @@
 img.slide{
-    height: 610px;
+    height: 670px;
 }
 
 .navbar-nav .nav-link:hover{
     color: brown;
 }
 
+#order {
+    padding-top: 50px; 
+  }
+  
