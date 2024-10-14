@@ -10,3 +10,47 @@ img.slide{
     padding-top: 50px; 
   }
   
+
+
+  /* Responsive Carousel */
+@media (max-width: 768px) {
+    img.slide {
+        height: 400px;
+    }
+}
+
+@media (max-width: 576px) {
+    img.slide {
+        height: 300px;
+    }
+}
+
+/* Order Section Padding for smaller screens */
+@media (max-width: 768px) {
+    #order {
+        padding-top: 30px;
+    }
+}
+
+/* Adjust columns for smaller screens */
+@media (max-width: 992px) {
+    .col-lg-3 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+
+@media (max-width: 576px) {
+    .col-lg-3, .col-md-4 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+
+/* Map iframe responsiveness */
+iframe {
+    width: 100%;
+    height: auto;
+    max-width: 500px;
+    max-height: 300px;
+}
